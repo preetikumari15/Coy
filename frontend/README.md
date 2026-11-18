@@ -1,16 +1,21 @@
-# React + Vite
+# Coy — "Discover" Tab (SDE Intern Assignment)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A mobile-first swipe discovery experience built alongside Coy's core privacy model: **never revealing one-sided interest unless a match is mutual**.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Frontend:** React (Vite), Tailwind CSS, Framer Motion, Lucide Icons
+- **Backend:** Node.js, Express, JSON file persistence (`server/store.json`)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features Implemented
+- **Seeded Deck (32 Profiles):** Includes name, age, avatar, bio, college/city, and interests, with pre-seeded incoming likes for live match demos.
+- **Swipe Gestures & Desktop Controls:** Touch drag gestures with real-time `LIKE` / `NOPE` overlays, desktop action buttons, and `ArrowLeft` / `ArrowRight` keyboard shortcuts.
+- **Privacy-First Matching:** `GET /feed` strips internal incoming-like flags so client network inspection cannot reveal who liked the user prior to a mutual match.
+- **Persistence:** Swipes and mutual matches persist across page reloads and server restarts.
 
-## React Compiler
+## Running Locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Start the Backend (`http://localhost:5000`)
+```bash
+cd server
+npm install
+node index.js
