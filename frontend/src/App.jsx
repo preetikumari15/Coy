@@ -4,6 +4,8 @@ import { Flame, Home, Heart, X, Sparkles, RotateCcw } from 'lucide-react';
 import SwipeCard from './components/SwipeCard';
 import MatchModal from './components/MatchModal';
 
+const API_BASE = import.meta.env.VITE_API_URL || '/api';
+
 export default function App() {
   const [activeTab, setActiveTab] = useState('discover');
   const [feed, setFeed] = useState([]);
@@ -17,8 +19,8 @@ export default function App() {
     setLoading(true);
     try {
       const [feedRes, matchesRes] = await Promise.all([
-        fetch('/api/feed'),
-        fetch('/api/matches'),
+        fetch(`${API_BASE}/feed`),
+        fetch(`${API_BASE}/matches`),
       ]);
       const feedData = await feedRes.json();
       const matchesData = await matchesRes.json();
@@ -46,7 +48,7 @@ export default function App() {
       }, 10);
 
       try {
-        const res = await fetch('/api/swipe', {
+        const res = await fetch(`${API_BASE}/swipe`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ profileId: targetProfile.id, action }),
@@ -82,7 +84,7 @@ export default function App() {
   }, [activeTab, newMatch, handleSwipe]);
 
   const handleResetDemo = async () => {
-    await fetch('/api/reset', { method: 'POST' });
+    await fetch(`${API_BASE}/reset`, { method: 'POST' });
     fetchData();
   };
 
