@@ -1,0 +1,474 @@
+{
+  "profiles": [
+    {
+      "id": "user_1",
+      "name": "Aarav",
+      "age": 19,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Aarav&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Coffee snob, weekend trekker, and terrible at bowling.",
+      "affiliation": "DU North Campus",
+      "interests": [
+        "Coffee",
+        "Photography",
+        "Street Food"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_2",
+      "name": "Ananya",
+      "age": 20,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Ananya&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Building side projects by day, hunting for the best momos by night.",
+      "affiliation": "DTU",
+      "interests": [
+        "Indie Music",
+        "Cricket",
+        "Fitness"
+      ],
+      "likedCurrentUser": true
+    },
+    {
+      "id": "user_3",
+      "name": "Kabir",
+      "age": 21,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Kabir&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Looking for someone to debate movies with over iced lattes.",
+      "affiliation": "NSUT",
+      "interests": [
+        "Hackathons",
+        "F1",
+        "Travel"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_4",
+      "name": "Meera",
+      "age": 22,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Meera&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "CS undergrad who actually touches grass on Sundays.",
+      "affiliation": "IIT Delhi",
+      "interests": [
+        "Photography",
+        "Reading",
+        "Art"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_5",
+      "name": "Rohan",
+      "age": 23,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Rohan&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Vinyl collector, amateur photographer, dog person.",
+      "affiliation": "Ashoka University",
+      "interests": [
+        "Cricket",
+        "Street Food",
+        "Gaming"
+      ],
+      "likedCurrentUser": true
+    },
+    {
+      "id": "user_6",
+      "name": "Diya",
+      "age": 24,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Diya&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Always down for spontaneous late-night drives and street food.",
+      "affiliation": "GGSIPU",
+      "interests": [
+        "F1",
+        "Fitness",
+        "Coffee"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_7",
+      "name": "Vikram",
+      "age": 19,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Vikram&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Coffee snob, weekend trekker, and terrible at bowling.",
+      "affiliation": "Miranda House",
+      "interests": [
+        "Reading",
+        "Travel",
+        "Indie Music"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_8",
+      "name": "Ishita",
+      "age": 20,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Ishita&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Building side projects by day, hunting for the best momos by night.",
+      "affiliation": "Amity Noida",
+      "interests": [
+        "Street Food",
+        "Art",
+        "Hackathons"
+      ],
+      "likedCurrentUser": true
+    },
+    {
+      "id": "user_9",
+      "name": "Aditya",
+      "age": 21,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Aditya&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Looking for someone to debate movies with over iced lattes.",
+      "affiliation": "DU North Campus",
+      "interests": [
+        "Fitness",
+        "Gaming",
+        "Photography"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_10",
+      "name": "Kavya",
+      "age": 22,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Kavya&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "CS undergrad who actually touches grass on Sundays.",
+      "affiliation": "DTU",
+      "interests": [
+        "Travel",
+        "Coffee",
+        "Cricket"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_11",
+      "name": "Siddharth",
+      "age": 23,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Siddharth&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Vinyl collector, amateur photographer, dog person.",
+      "affiliation": "NSUT",
+      "interests": [
+        "Art",
+        "Indie Music",
+        "F1"
+      ],
+      "likedCurrentUser": true
+    },
+    {
+      "id": "user_12",
+      "name": "Naina",
+      "age": 24,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Naina&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Always down for spontaneous late-night drives and street food.",
+      "affiliation": "IIT Delhi",
+      "interests": [
+        "Gaming",
+        "Hackathons",
+        "Reading"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_13",
+      "name": "Arjun",
+      "age": 19,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Arjun&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Coffee snob, weekend trekker, and terrible at bowling.",
+      "affiliation": "Ashoka University",
+      "interests": [
+        "Coffee",
+        "Photography",
+        "Street Food"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_14",
+      "name": "Rhea",
+      "age": 20,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Rhea&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Building side projects by day, hunting for the best momos by night.",
+      "affiliation": "GGSIPU",
+      "interests": [
+        "Indie Music",
+        "Cricket",
+        "Fitness"
+      ],
+      "likedCurrentUser": true
+    },
+    {
+      "id": "user_15",
+      "name": "Dev",
+      "age": 21,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Dev&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Looking for someone to debate movies with over iced lattes.",
+      "affiliation": "Miranda House",
+      "interests": [
+        "Hackathons",
+        "F1",
+        "Travel"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_16",
+      "name": "Tara",
+      "age": 22,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Tara&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "CS undergrad who actually touches grass on Sundays.",
+      "affiliation": "Amity Noida",
+      "interests": [
+        "Photography",
+        "Reading",
+        "Art"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_17",
+      "name": "Karan",
+      "age": 23,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Karan&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Vinyl collector, amateur photographer, dog person.",
+      "affiliation": "DU North Campus",
+      "interests": [
+        "Cricket",
+        "Street Food",
+        "Gaming"
+      ],
+      "likedCurrentUser": true
+    },
+    {
+      "id": "user_18",
+      "name": "Sanya",
+      "age": 24,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Sanya&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Always down for spontaneous late-night drives and street food.",
+      "affiliation": "DTU",
+      "interests": [
+        "F1",
+        "Fitness",
+        "Coffee"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_19",
+      "name": "Nikhil",
+      "age": 19,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Nikhil&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Coffee snob, weekend trekker, and terrible at bowling.",
+      "affiliation": "NSUT",
+      "interests": [
+        "Reading",
+        "Travel",
+        "Indie Music"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_20",
+      "name": "Pooja",
+      "age": 20,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Pooja&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Building side projects by day, hunting for the best momos by night.",
+      "affiliation": "IIT Delhi",
+      "interests": [
+        "Street Food",
+        "Art",
+        "Hackathons"
+      ],
+      "likedCurrentUser": true
+    },
+    {
+      "id": "user_21",
+      "name": "Yash",
+      "age": 21,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Yash&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Looking for someone to debate movies with over iced lattes.",
+      "affiliation": "Ashoka University",
+      "interests": [
+        "Fitness",
+        "Gaming",
+        "Photography"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_22",
+      "name": "Zoya",
+      "age": 22,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Zoya&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "CS undergrad who actually touches grass on Sundays.",
+      "affiliation": "GGSIPU",
+      "interests": [
+        "Travel",
+        "Coffee",
+        "Cricket"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_23",
+      "name": "Pranav",
+      "age": 23,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Pranav&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Vinyl collector, amateur photographer, dog person.",
+      "affiliation": "Miranda House",
+      "interests": [
+        "Art",
+        "Indie Music",
+        "F1"
+      ],
+      "likedCurrentUser": true
+    },
+    {
+      "id": "user_24",
+      "name": "Myra",
+      "age": 24,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Myra&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Always down for spontaneous late-night drives and street food.",
+      "affiliation": "Amity Noida",
+      "interests": [
+        "Gaming",
+        "Hackathons",
+        "Reading"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_25",
+      "name": "Aryan",
+      "age": 19,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Aryan&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Coffee snob, weekend trekker, and terrible at bowling.",
+      "affiliation": "DU North Campus",
+      "interests": [
+        "Coffee",
+        "Photography",
+        "Street Food"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_26",
+      "name": "Aisha",
+      "age": 20,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Aisha&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Building side projects by day, hunting for the best momos by night.",
+      "affiliation": "DTU",
+      "interests": [
+        "Indie Music",
+        "Cricket",
+        "Fitness"
+      ],
+      "likedCurrentUser": true
+    },
+    {
+      "id": "user_27",
+      "name": "Rahul",
+      "age": 21,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Rahul&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Looking for someone to debate movies with over iced lattes.",
+      "affiliation": "NSUT",
+      "interests": [
+        "Hackathons",
+        "F1",
+        "Travel"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_28",
+      "name": "Simran",
+      "age": 22,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Simran&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "CS undergrad who actually touches grass on Sundays.",
+      "affiliation": "IIT Delhi",
+      "interests": [
+        "Photography",
+        "Reading",
+        "Art"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_29",
+      "name": "Varun",
+      "age": 23,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Varun&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Vinyl collector, amateur photographer, dog person.",
+      "affiliation": "Ashoka University",
+      "interests": [
+        "Cricket",
+        "Street Food",
+        "Gaming"
+      ],
+      "likedCurrentUser": true
+    },
+    {
+      "id": "user_30",
+      "name": "Kiara",
+      "age": 24,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Kiara&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Always down for spontaneous late-night drives and street food.",
+      "affiliation": "GGSIPU",
+      "interests": [
+        "F1",
+        "Fitness",
+        "Coffee"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_31",
+      "name": "Harsh",
+      "age": 19,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Harsh&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Coffee snob, weekend trekker, and terrible at bowling.",
+      "affiliation": "Miranda House",
+      "interests": [
+        "Reading",
+        "Travel",
+        "Indie Music"
+      ],
+      "likedCurrentUser": false
+    },
+    {
+      "id": "user_32",
+      "name": "Avni",
+      "age": 20,
+      "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Avni&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+      "bio": "Building side projects by day, hunting for the best momos by night.",
+      "affiliation": "Amity Noida",
+      "interests": [
+        "Street Food",
+        "Art",
+        "Hackathons"
+      ],
+      "likedCurrentUser": true
+    }
+  ],
+  "swipes": {
+    "user_1": "like",
+    "user_2": "like"
+  },
+  "matches": [
+    {
+      "profile": {
+        "id": "user_2",
+        "name": "Ananya",
+        "age": 20,
+        "photo": "https://api.dicebear.com/9.x/notionists/svg?seed=Ananya&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc",
+        "bio": "Building side projects by day, hunting for the best momos by night.",
+        "affiliation": "DTU",
+        "interests": [
+          "Indie Music",
+          "Cricket",
+          "Fitness"
+        ]
+      },
+      "matchedAt": "2026-11-18T12:40:31.365Z"
+    }
+  ]
+}
